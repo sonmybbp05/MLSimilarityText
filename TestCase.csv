@@ -1,0 +1,158 @@
+Group,Scenario,Function,TestCaseNo,TestCasesName,TestStep,TestData,ExpectedResult
+TH,Add Portforlio,Normal Search ,SC001_TC001,Verify all component of  Normal Search  screen.,"1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  แตะเพื่อเพิ่มตราสารหนี้
+5. Verify พอร์ตลงทุน screen",,
+TH,Add Portforlio,Normal Search ,SC001_TC002,Verify เลือกตราสารหนี้,"1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Verify portfolio screen when select ""เลือกตราสารหนี้""","ตราสารหนี้ SBST255A
+ราคาต่อหน่วย 1,000 บาท
+วันที่ซื้อ 14 พ.ค. 2020",
+TH,Add Portforlio,Normal Search ,SC001_TC003,Verify เลือกการระบุข้อมูลการลงทุน : มูลค่า (บาท),"1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : มูลค่า (บาท)""
+7. Input มูลค่า (บาท)
+8. Validate จำนวนหน่วย","ตราสารหนี้ SBST255A
+ราคาต่อหน่วย 1,000 บาท
+วันที่ซื้อ 14 พ.ค. 2020
+มูลค่า 10,000 (บาท)",จำนวนหน่วย 10
+TH,Add Portforlio,Normal Search ,SC001_TC004,Verify เลือกการระบุข้อมูลการลงทุน : จำนวนหน่วย,"1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : จำนวนหน่วย""
+7. Input จำนวนหน่วย
+8. Validate มูลค่า (บาท)","ตราสารหนี้ SBST255A
+ราคาต่อหน่วย 1,000 บาท
+วันที่ซื้อ 14 พ.ค. 2020
+จำนวน 100 หน่วย","มูลค่า (บาท)  100,000  บาท"
+TH,Add Portforlio,Normal Search ,SC001_TC005,Verify เลือกการระบุข้อมูลการลงทุน : ระบุด้วยตัวเอง ทั้งมูลค่าและจำนวนหน่วย,"1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : ระบุด้วยตัวเอง ทั้งมูลค่าและจำนวนหน่วย""
+7. Input มูลค่า (บาท) 
+8. Input จำนวนหน่วย
+8. Validate ราคาต่อหน่วย","ตราสารหนี้ SBST255A
+วันที่ซื้อ 14 พ.ค. 2020
+จำนวน 100 หน่วย
+มูลค่า 10,000 (บาท)",ราคาต่อหน่วย 100 บาท
+TH,Add Portforlio,Normal Search ,SC001_TC006,"Verify เพิ่มข้อมูลการลงทุน :
+- มูลค่าบาท
+- ดำเนินการต่อ","1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : มูลค่า (บาท)""
+7. Input มูลค่า (บาท)
+8. Validate จำนวนหน่วย
+9. Select  ""+ เพิ่มตราสารหนี้""
+10. Popup ข้อมูลรายการที่ต้องการเพิ่ม
+11. Select ""ดำเนินการต่อ""
+12. Display หน้ารวมพอร์ตลงทุน","ตราสารหนี้ SBST255A
+ราคาต่อหน่วย 1,000 บาท
+วันที่ซื้อ 14 พ.ค. 2020
+มูลค่า 10,000 (บาท)
+จำนวนหน่วย 10",Display หน้ารวมพอร์ตลงทุน
+TH,Add Portforlio,Normal Search ,SC001_TC007,"Verify เพิ่มข้อมูลการลงทุน : 
+- จำนวนหน่วย
+- ดำเนินการต่อ","1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : จำนวนหน่วย""
+7. Input จำนวนหน่วย
+8. Validate มูลค่า (บาท)
+9. Select  ""+ เพิ่มตราสารหนี้""
+10. Popup ข้อมูลรายการที่ต้องการเพิ่ม
+11. Select ""ดำเนินการต่อ""
+12. Display หน้ารวมพอร์ตลงทุน","ตราสารหนี้ SBST255A
+ราคาต่อหน่วย 1,000 บาท
+วันที่ซื้อ 14 พ.ค. 2020
+มูลค่า 100,000 (บาท)
+จำนวนหน่วย 100",Display หน้ารวมพอร์ตลงทุน
+TH,Add Portforlio,Normal Search ,SC001_TC008,"Verify เพิ่มข้อมูลการลงทุน : 
+- ระบุด้วยตัวเอง ทั้งมูลค่าและจำนวนหน่วย
+- ดำเนินการต่อ","1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : ระบุด้วยตัวเอง ทั้งมูลค่าและจำนวนหน่วย""
+7. Input มูลค่า (บาท) 
+8. Input จำนวนหน่วย
+8. Validate ราคาต่อหน่วย
+9. Select  ""+ เพิ่มตราสารหนี้""
+10. Popup ข้อมูลรายการที่ต้องการเพิ่ม
+11. Select ""ดำเนินการต่อ""
+12. Display หน้ารวมพอร์ตลงทุน","ตราสารหนี้ SBST255A
+วันที่ซื้อ 14 พ.ค. 2020
+มูลค่า 10,000 (บาท)
+จำนวนหน่วย 100
+ราคาต่อหน่วย 100 บาท",Display หน้ารวมพอร์ตลงทุน
+TH,Add Portforlio,Normal Search ,SC001_TC009,"Verify เพิ่มข้อมูลการลงทุน :
+- มูลค่าบาท
+- ยกเลิก","1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : มูลค่า (บาท)""
+7. Input มูลค่า (บาท)
+8. Validate จำนวนหน่วย
+9. Select  ""+ เพิ่มตราสารหนี้""
+10. Popup ข้อมูลรายการที่ต้องการเพิ่ม
+11. Select ""ยกเลิก""
+12. ไม่ดำเนินการใดๆ","ตราสารหนี้ SBST255A
+ราคาต่อหน่วย 1,000 บาท
+วันที่ซื้อ 14 พ.ค. 2020
+มูลค่า 10,000 (บาท)
+จำนวนหน่วย 10",ไม่ดำเนินการใดๆ
+TH,Add Portforlio,Normal Search ,SC001_TC010,"Verify เพิ่มข้อมูลการลงทุน : 
+- จำนวนหน่วย
+- ยกเลิก","1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : จำนวนหน่วย""
+7. Input จำนวนหน่วย
+8. Validate มูลค่า (บาท)
+9. Select  ""+ เพิ่มตราสารหนี้""
+10. Popup ข้อมูลรายการที่ต้องการเพิ่ม
+11. Select ""ยกเลิก""
+12. ไม่ดำเนินการใดๆ","ตราสารหนี้ SBST255A
+ราคาต่อหน่วย 1,000 บาท
+วันที่ซื้อ 14 พ.ค. 2020
+มูลค่า 100,000 (บาท)
+จำนวนหน่วย 100",ไม่ดำเนินการใดๆ
+TH,Add Portforlio,Normal Search ,SC001_TC011,"Verify เพิ่มข้อมูลการลงทุน : 
+- ระบุด้วยตัวเอง ทั้งมูลค่าและจำนวนหน่วย
+- ยกเลิก","1. Login to application 
+2. Select พอร์ตลงทุน memu
+3. Select Portfolio name
+4. Select  พอร์ตลงทุน
+5. Select  เลือกตราสารหนี้
+6. Select ""เลือกการระบุข้อมูลการลงทุน : ระบุด้วยตัวเอง ทั้งมูลค่าและจำนวนหน่วย""
+7. Input มูลค่า (บาท) 
+8. Input จำนวนหน่วย
+8. Validate ราคาต่อหน่วย
+9. Select  ""+ เพิ่มตราสารหนี้""
+10. Popup ข้อมูลรายการที่ต้องการเพิ่ม
+11. Select ""ยกเลิก""
+12. ไม่ดำเนินการใดๆ","ตราสารหนี้ SBST255A
+วันที่ซื้อ 14 พ.ค. 2020
+มูลค่า 10,000 (บาท)
+จำนวนหน่วย 100
+ราคาต่อหน่วย 100 บาท",ไม่ดำเนินการใดๆ
